@@ -1,0 +1,29 @@
+{
+  "name": "oracles",
+  "version": "1.0.0",
+  "description": "Implementation of smart contract price oracles",
+  "main": "index.js",
+  "scripts": {
+    "test": "npmx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backstop-protocol/Oracles.git"
+  },
+  "author": "yaron velner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backstop-protocol/Oracles/issues"
+  },
+  "homepage": "https://github.com/backstop-protocol/Oracles#readme",
+  "dependencies": {
+    "hardhat": "^2.9.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.6.1"
+  }
+}
